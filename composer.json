@@ -1,0 +1,31 @@
+{
+    "name": "panlatent/craft-event-register",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "panlatent\\craft\\event\\register\\": "src/"
+        }
+    },
+    "extra": {
+        "bootstrap": "panlatent\\craft\\event\\register\\Extension"
+    },
+    "authors": [
+        {
+            "name": "panlatent",
+            "email": "panlatent@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0.2",
+        "craftcms/cms": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
+    }
+}
